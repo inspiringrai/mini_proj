@@ -4,12 +4,12 @@
   tasks:
     - name: Pull image
       docker_image:
-        name: himankjn/check
+        name: inspiringrai/calcproj
         source: pull
-    - name: deploy docker container
-      docker_container:
-        image: himankjn/check
-        name: container2
-        state: started
-        ports:
-          - "8080:80"
+    #- name: deploy docker container
+    #  docker_container:
+    #    image: inspiringrai/calcproj
+    #    name: container2
+    #    state: started
+    #    ports:
+    #     - "8080:80"
