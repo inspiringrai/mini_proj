@@ -1,2 +1,2 @@
 [ubuntu18]
-10.0.2.4 ansible_user=vishal ansible_ssh_pass=system123#
+10.0.2.4 ansible_user=vishal
